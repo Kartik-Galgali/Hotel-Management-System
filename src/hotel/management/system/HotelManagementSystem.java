@@ -7,7 +7,7 @@ import java.awt.event.*;
 
 public class HotelManagementSystem extends JFrame implements ActionListener {
 
-    public HotelManagementSystem() {
+    HotelManagementSystem() {
 //        setSize(1366, 565);
 //        setLocation(100, 100);
         setBounds(100, 100, 1366, 565); //Creating Screen [x-axis, y-axis, width, height]

@@ -11,7 +11,7 @@ public class AddEmployee extends JFrame implements ActionListener {
     JButton submit, cancel;
     JComboBox cbjob;
 
-    public AddEmployee() {
+    AddEmployee() {
         getContentPane().setBackground(Color.white);
         setBounds(350, 200, 850, 540);
         setLayout(null);

@@ -8,7 +8,7 @@ public class Dashboard extends JFrame implements ActionListener {
 
     JMenuItem reception, addemployee, addrooms, adddrivers;
 
-    public Dashboard() {
+    Dashboard() {
 
         setLayout(null);
 
