@@ -54,7 +54,7 @@ public class EmployeeInfo extends JFrame implements ActionListener{
         
         try {
             Conn conn = new Conn();
-            String query = "Select * from employee";
+            String query = "select * from employee";
             ResultSet rs = conn.s.executeQuery(query);
             table.setModel(DbUtils.resultSetToTableModel(rs));
         } catch (Exception e) {
