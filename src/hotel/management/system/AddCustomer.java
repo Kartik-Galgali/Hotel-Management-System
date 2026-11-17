@@ -3,6 +3,7 @@ package hotel.management.system;
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.ResultSet;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import javax.swing.*;
 
@@ -108,8 +109,9 @@ public class AddCustomer extends JFrame implements ActionListener{
         add(lbltime);
         
         Date date = new Date();
+        SimpleDateFormat sdf = new SimpleDateFormat("EEE, dd-MM-yyyy hh:mm:ss a z");
         
-        checkintime = new JLabel(""+date);
+        checkintime = new JLabel(sdf.format(date));
         checkintime.setFont(new Font("Raleway", Font.PLAIN, 16));
         checkintime.setBounds(200, 320 , 150, 20);
         add(checkintime);

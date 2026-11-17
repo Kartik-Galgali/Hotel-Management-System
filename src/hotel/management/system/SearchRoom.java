@@ -20,7 +20,7 @@ public class SearchRoom extends JFrame implements ActionListener{
         
         JLabel text = new JLabel("Search for Room");
         text.setFont(new Font("Tahoma", Font.PLAIN, 20));
-        text.setBounds(400, 30, 200, 30);
+        text.setBounds(400, 30, 200, 30); 
         add(text);
         
         JLabel lblbed = new JLabel("Bed Type");
