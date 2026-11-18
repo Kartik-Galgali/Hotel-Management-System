@@ -148,7 +148,7 @@ public class UpdateCheck extends JFrame implements ActionListener{
             
             try {
                 Conn c = new Conn();
-                c.s.executeUpdate("update customer set roomno = '"+room+"', name = '"+name+"', checkin ='"+checkin+"', deposit ='"+deposit+"'");
+                c.s.executeUpdate("update customer set roomno = '"+room+"', name = '"+name+"', checkin ='"+checkin+"', deposit ='"+deposit+"' where number = '"+number+"'");
                 JOptionPane.showMessageDialog(null, "Data Updated Successfully");
             } catch (Exception e) {
                 e.printStackTrace();
