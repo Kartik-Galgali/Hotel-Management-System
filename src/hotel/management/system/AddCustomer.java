@@ -109,7 +109,7 @@ public class AddCustomer extends JFrame implements ActionListener{
         add(lbltime);
         
         Date date = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("EEE, dd-MM-yyyy hh:mm:ss a z");
+        SimpleDateFormat sdf = new SimpleDateFormat("EEE, dd-MM-yyyy hh:mm:ss a");
         
         checkintime = new JLabel(sdf.format(date));
         checkintime.setFont(new Font("Raleway", Font.PLAIN, 16));

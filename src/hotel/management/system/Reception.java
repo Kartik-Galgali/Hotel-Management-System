@@ -151,6 +151,10 @@ public class Reception extends JFrame implements ActionListener {
             setVisible(false);
             new Pickup();
         }
+        else if (ae.getSource() == checkout) {
+            setVisible(false);
+            new Checkout();
+        }
         
     }
 }
