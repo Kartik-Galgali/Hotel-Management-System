@@ -155,6 +155,10 @@ public class Reception extends JFrame implements ActionListener {
             setVisible(false);
             new Checkout();
         }
+        else if (ae.getSource() == logout) {
+            setVisible(false);
+            System.exit(0);
+        }
         
     }
 }
